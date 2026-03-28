@@ -1,0 +1,10 @@
+control node installation
+#!/bin/bash
+sudo yum update -y
+sudo yum install python3-pip -y
+sudo yum install ansible -y
+
+managed node installation
+#!/bin/bash
+sudo yum update -y
+sudo yum install python3-pip -y
